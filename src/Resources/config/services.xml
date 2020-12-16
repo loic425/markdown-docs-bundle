@@ -42,6 +42,7 @@
             </call>
             <tag name="container.service_subscriber"/>
             <argument key="$templateHandler" type="service" id="mobizel_markdown_docs.template.template_handler"/>
+            <argument key="$docsDir">%mobizel.markdown_docs.docs_dir%</argument>
         </service>
 
         <service id="mobizel_markdown_docs.controller.menu_action" class="Mobizel\Bundle\MarkdownDocsBundle\Controller\MenuAction">
